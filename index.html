@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/2017-4-2.css">
+	<script type="text/javascript" src="js/2017-4-2.js"></script>
+</head>
+<body>
+	<div class="pic_main" id="hhh">
+		<div class="pic_btn pic_left_btn" onclick="JS_Pic.CHANGELEFT()"><h1><</h1></div>
+		<div id="pic_list" class="pic_list">
+			<img src="img/1.jpg" class="pic_item"></a></li>
+			<img src="img/2.jpg" class="pic_item"></a></li>
+			<img src="img/3.jpg" class="pic_item"></a></li>
+			<img src="img/4.jpg" class="pic_item"></a></li>
+			<img src="img/5.jpg" class="pic_item"></a></li>
+		</div>
+		<div class="pic_btn pic_right_btn" onclick="JS_Pic.CHANGERIGHT()"><h1>></h1></div>
+	</div>
+</body>
+<script type="text/javascript">
+	var JS_Pic = new JS_PIC(document.querySelector('#hhh'));
+</script>
+</html>

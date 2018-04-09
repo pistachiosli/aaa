@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style: none;
+}
+
+.pic_main{
+	width: 500px;
+	height: 270px;
+	margin: 100px auto;
+	/*overflow: hidden;*/
+	position: relative;
+}
+
+img{
+	width: 500px;
+	height: 270px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 1;
+	z-index: 1;
+}
+
+.pic_main .pic_btn{
+	width: 100px;
+	height: 270px;
+	position: absolute;
+	/*background-color: red;*/
+	line-height: 270px;
+	font-size: 30px;
+	text-align: center;
+	z-index: 10;
+	top: 0px;
+	cursor: pointer;
+}
+
+.pic_main .pic_letf_btn{
+	left: 0px;
+}
+
+.pic_main .pic_right_btn{
+	right: 0px;
+}
